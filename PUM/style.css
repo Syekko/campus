@@ -1,0 +1,79 @@
+/*!
+Theme Name:    Pole Universitaire Montbéliard
+Author:        Me
+Author URI:    http://jalishadjadj.fr/
+Description:   Mon theme
+Version:       2.5.10
+License:       GNU General Public License v3 or later
+License URI:   https://www.gnu.org/licenses/gpl-3.0.html
+Template:      page-builder-framework
+Text Domain:   page-builder-framework-child
+*/
+
+.titre
+{
+	margin-bottom: 200px;
+    margin-left: 100px;
+	font-family: "Yeseva One", serif;
+}
+
+/* Main column width */
+.wp-block {
+    max-width: 720px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 0%;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.post-links {display:none;}
+
+#header
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+	z-index:10;
+
+}
+#main
+{
+	padding-top:100px;
+}
+.widget a
+{
+	color:#999999;
+}
+.widget a:hover
+{
+	color:black;
+}
+.accueil-image
+{
+	padding-top:-100px;
+}
+.carousel-slider__post
+{
+	border:0 !important;
+	
+}
+.entry-title
+{
+	--accent-color: #000000;
+    --accent-color-alt: #101010;;
+}
+.carousel-slider__post-meta
+{
+	display:none !important;
+}
+.category-formations
+{
+	width:100%;
+
+}
